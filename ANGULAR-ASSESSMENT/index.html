@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+       
+        <link href="index.css" rel="stylesheet">
+        <link href="second.css" rel="stylesheet">
+        <link href="icon.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">World Chess Championship 2023</div>
+            <div id="menu">
+                <ul>
+                    <li> Play Online</li>
+                    <li> Computer</li>
+                    <li> Play with Friends </li>
+                    <li> Toutnaments</li>
+                    <li> Chess Variants</li>
+                </ul>
+            </div>
+            <div id="icon" ><img src="Icon1.png"  style="width: 25px; height: 25px; object-fit: cover;"></div>
+            <div id="icon"><img src="Icon2.png"  style="width: 25px; height: 25px; object-fit: cover;"></div>
+            <div id="icon"><img src="Icon3.png"  style="width: 25px; height: 25px; object-fit: cover;"></div>
+            <!-- <div id="slide-arrow"><img src="uparrow.png"  style="width: 25px; height: 25px; object-fit: cover;"></div>
+            <div id="slide-arrow"><img src="downarrow.png"  style="width: 25px; height: 25px; object-fit: cover;"></div> -->
+        </div>
+        <div id="arrow">
+
+            <button class="arrow-btn" onclick="toggleSlideShow()">
+                <img src="uparrow.png" id="arrow-icon" alt="Up arrow">
+             
+            </button>
+
+        </div>
+        <div id="slide-area">
+            <div id="slide-show">
+                <img src="first.jpg" id="img1">
+                <img src="left.png" id="left-icon" class="icon" onClick="changeImage('left')">
+                <img src="right.png" id="right-icon" class="icon"
+                  onClick="changeImage('right')">
+            </div>
+        </div>
+        <div id="services-wrapper" >
+
+        </div>
+      
+        <div id="footer">
+            &copy; all copyrights reserved, World Chess Championship 2023
+        </div>
+    </body>
+    <script src="data.js"></script>
+</html>
